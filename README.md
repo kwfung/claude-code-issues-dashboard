@@ -1,7 +1,7 @@
 # Claude Code GitHub Issues Analysis
-## Product Operations Take-Home Exercise Workflow
+## Product Operations Workflow
 
-This repository contains a **manual two-step approach** for analyzing 1,000 GitHub issues from the `anthropics/claude-code` repository as part of a Product Operations Manager interview exercise.
+This repository contains a **manual two-step approach** for analyzing 1,000 GitHub issues from the `anthropics/claude-code` repository .
 
 ---
 
