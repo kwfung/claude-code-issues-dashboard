@@ -1,0 +1,30 @@
+# Data files (sensitive)
+data/raw_issues.csv
+data/*_issues*.csv
+
+# Output files
+output/*.csv
+output/reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,358 @@
+issue_number,title,labels,Category,Sentiment,L1_Tag,L1_Category,L2_Tag,L2_Category,Confidence,Tagging_Notes
+14217,[Bug] Poor instruction following in Claude Code responses,"bug, platform:macos, area:api",Bug,Negative,L1.2,API & Integration,Other,Other,Low,No L2 match found
+14215,[Bug] Unable to compact,"bug, has repro, platform:macos, area:mcp",Bug,Neutral,L1.5,MCP Integration,Other,Other,Low,No L2 match found
+14202,Bug: Project-scoped plugins incorrectly detected as installed globally,"bug, has repro, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+14201,[Bug] Image rejected as too large despite being under 50 KB limit,"bug, has repro, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+14196,[Bug] Image compression failure causes CLI freeze and conversation corruption,"bug, has repro, platform:macos, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+14195,[Bug] Anthropic API Error: Prompt exceeds maximum token limit (191989 > 180000) sonnet[1m],"bug, has repro, platform:macos, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+14193,[BUG] Extension icon disappeared from primary sidebar after v2.0.70 update in VSCodium 1.106.37943,"bug, has repro, platform:macos, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+14191,[Feature Request] Command access control for project-scoped restrictions,"enhancement, platform:linux, area:security",Feature Request,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+14186,[BUG] vscode Plan mode saves files to system directory instead of project directory,"bug, has repro, platform:macos, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+14178,[FEATURE] Do not auto send the suggestion reply on enter,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14174,[FEATURE] Expose rate limit / usage data in statusLine JSON input,"duplicate, enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14171,[Bug] Claude model produces incorrect Spanish characters and orthographic errors with tildes and ñ,duplicate,Bug,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+14169,[Bug] Hide Opus 4.5 upgrade note when already using Opus 4.5,"enhancement, area:tui, area:model",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+14164,[Bug] Pasted text placeholders not expanded in message history,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14155,[Feature Request] Voice-to-text input support for CLI,"enhancement, platform:linux, area:tui, area:a11y",Feature Request,Positive,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14154,[FEATURE] Add Skill() to permissions pattern in JSON schema,"enhancement, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+14147,[Bug] Preview code diff colors inconsistent between runs in trminal,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14143,[BUG],"bug, duplicate, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+14142,[Feature Request] statusline-setup agent missing current_usage field implementation for context window calculations,"enhancement, platform:macos, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14140,[Bug] Terminal flickering during verbose mode with large code updates,"bug, has repro, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14136,Feature Request: Expose plan usage/subscription limits in status line input,"enhancement, area:tui",Feature Request,Positive,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14131,"[BUG] German umlauts (ä, ö, ü) randomly replaced with ASCII substitutes (ae, oe, ue)","bug, has repro, platform:macos, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+14129,"[BUG]  /rate-limit-options command repeatedly auto-executes after session reset, causing excessive token consumption","bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14126,[Bug] Web Search tool stuck on 2024 date context despite updated configuration,"bug, duplicate, has repro, platform:macos, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+14121,"[FEATURE] In the Desktop app, the panel for code review is very small compared to the CLI version, and makes it difficult to read.","enhancement, area:ide",Feature Request,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+14115,Review archived workflows 8000/8100 for potential reactivation or deletion,enhancement,Bug,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+14112,[Feature Request] Persistent shell output access to avoid redundant long-running command executions,"enhancement, area:tools, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+14110,[BUG] each tool_use must have a single result. Found multiple `tool_result` blocks,"bug, api:vertex, platform:macos, area:tools, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+14108,[Bug] Invalid URL in /review command plugin installation instructions,"bug, documentation, platform:macos",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+14106,[Bug] Sometimes scrollback is unavailable in Windows Terminal,"bug, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14105,Vertex AI 内容安全过滤误报中文拼音名字,"bug, has repro, api:vertex, external",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+14103,Claude Code repeatedly fabricates information instead of admitting uncertainty,"bug, has repro, platform:macos, area:model",Bug,Negative,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+14102,Credit balance too low (Claude MAX - Enough Usage),"bug, area:cost",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+14098,"[Feature Request] Show PID of blocking process in ""claude update"" error message","enhancement, has repro, platform:linux, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+14096,[Bug] Secrets exposed in conversation logging even if read from 1password,"bug, has repro, platform:macos, area:security",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+14095,[Bug] AI model consistently reports incorrect year (2024) in responses,"bug, duplicate, platform:macos, area:model, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+14091,[Bug] Status line token counts not resetting after /clear or /compact commands,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14087,[BUG] SONNET USAGE FAILED TO RE,"bug, has repro, platform:macos, area:api",Bug,Negative,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+14085,Security: Predictable temp file names in /tmp vulnerable to symlink attacks,"bug, has repro, area:security",Bug,Neutral,L1.10,Security,Other,Other,Low,No L2 match found
+14084,Add setting to persist editor mode (vim) across sessions,"enhancement, area:tui",Feature Request,Positive,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14075,[Bug] Anthropic API Error: Orphaned tool_result block without corresponding tool_use,"bug, duplicate, has repro, platform:macos, area:tools, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+14074,[DOCS] Tags please?,"documentation, enhancement",Documentation,Positive,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+14070,[BUG] Claude is never thorough with Impact analysis,"bug, enhancement, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+14067,[Feature Request] Expose MCP Server Toggle as a Claude-Invokable Tool for Skills,"enhancement, area:tools, area:mcp",Feature Request,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+14066,[BUG] AWS Bedrock Air-Gapped Regions,"bug, has repro, platform:windows, api:bedrock, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+14058,[Feature Request] Include actual context window usage in statusline JSON,"enhancement, area:tui, area:api",Feature Request,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+14055,Parallel Task agents intermittently lose output content,"bug, has repro, platform:macos, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,No L2 match found
+14051,[BUG],"bug, has repro, platform:linux, area:cost, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+14042,[Feature Request] Add PyCharm/JetBrains IDE button alongside VS Code button,"enhancement, platform:macos, area:ide",Feature Request,Positive,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+14038,"[Bug Report: API Error: 400 {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Could not process      PDF""}]","bug, has repro, platform:windows, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+14033,[Bug] Anthropic API Error: Invalid tool_result block without corresponding tool_use,"bug, duplicate, platform:macos, area:tools, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+14029,[BUG] Windows PowerShell installer (install.ps1) serves outdated version 2.0.65 while Linux is at 2.0.69,"bug, has repro, platform:windows, area:packaging",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+14028,"[BUG] During tool usage, claude code does not terminate a underline","bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+14027,[FEATURE] Leave Claude with single Ctrl+D,"enhancement, area:tui",Feature Request,Negative,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14026,[BUG] Rate limit blocking usage despite having available credits ($19 remaining),"bug, has repro, platform:macos, area:auth, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+14025,[Feature Request] Increase Claude 3 Opus context window support,"enhancement, platform:macos, area:api",Feature Request,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+14021,[Bug] Claude ignores explicit user instructions and performs predicted tasks instead,"bug, platform:macos, area:auth, area:model, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+14017,[Bug] Anthropic API Error: 520 Status Code,"bug, has repro, platform:macos, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+14016,Skills don't auto-activate in spawned agents (via Task tool),"bug, has repro, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+14014,[BUG] terminal setup crashes in ghostty,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+14013,PasswordResetConfirmRequest.java,invalid,Feature Request,Neutral,Other,Other,Other,Other,Low,No clear L1/L2 match
+14008,[Feature Request] Add keyboard navigation for prompt/response history in VS Code plugin,"enhancement, area:tui, area:ide",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+14006,[FEATURE] shortcut to go to prompt,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13994,Feature Request: Expose per-sub-agent metrics in status line and hooks,"enhancement, has repro, area:tui, area:tools, area:api",Feature Request,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13992,[Feature Request] Load CLAUDE.md from VS Code workspace root directories,"enhancement, platform:windows, area:ide, memory",Feature Request,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13991,[FEATURE] Add built-in setting to customize the Claude Code ASCII banner/logo in terminal,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13987,Bug Report,,Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13981,[BUG] Install bash script fails with timeout,"bug, has repro, platform:linux, area:packaging",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13979,[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant messages,"bug, duplicate, has repro, platform:linux, area:model, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13978,[BUG] Cannot edit cloud environments on CC Web,"bug, has repro, platform:windows",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13977,[BUG] Statusline context_window tokens are cumulative and don't reset on /clear,"bug, duplicate, has repro, platform:macos, area:tui, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13975,[BUG] /context slash command no longer exists in CC VS Code extension,"bug, has repro, platform:linux, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13967,[BUG] FIX YOUR FUHKING SCROLL ISSUE - STOP IGNORING IT ITS BEEN REQUESTED FOR OVER A YEAR ITS AI SLOP FIX IT,"bug, duplicate, platform:windows, area:tui, memory",Bug,Negative,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13966,"Image paste from clipboard not working in some terminal emulators (Terminator, PhpStorm integrated terminal)","bug, has repro, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13965,"[Bug] Claude generates inappropriate ""Nazi Judge"" persona in multi-agent audit workflow","bug, has repro, area:model, area:security",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+13957,[Feature Request] Add support for alternative AI models alongside Claude,"bug, has repro, platform:windows, area:api, area:mcp",Feature Request,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13950,[BUG]   Cli Long term chatting will flicker and scroll,"bug, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13942,"Last character truncated in terminal output (statusline, release notes, etc.)","bug, has repro, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13938,[FEATURE] PermissionRequest hook payload should include tool_use_id,"enhancement, area:tools",Feature Request,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13931,[E2E] Browser 3 - Gap resolution not reducing blocking gap count,invalid,Bug,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+13930,[BUG] Input background highlighting appears inconsistently,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13927,[Bug] Plugin TUI validation rejects agents array while CLI install succeeds,,Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13924,[Feature Request] Display cursor bar indicator in Vim insert mode,"enhancement, platform:macos, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13921,[BUG]  Minified React error #185,"bug, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13913,[Feature Request] Add option to disable feedback prompt,"duplicate, enhancement, platform:macos, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13910,The /feedback command should work when using Claude through Vertex AI,"enhancement, api:vertex, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13909,[Bug] Anthropic API Error: Could not process image,"bug, has repro, platform:macos, area:tools, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13905,[BUG] Invalid YAML syntax in claude/rules frontmatter `paths` property,"bug, documentation, has repro, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13904,Incident Report: Claude Opus 4.5 Destructive Actions During Test Restructuring,"bug, has repro, area:core, area:security",Bug,Negative,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+13901,[BUG] It refuses your filter to make me at manage country flags based on user ip,"bug, has repro, platform:windows, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13900,[BUG] `/hooks` command: Selecting any hook event redirects to `PreToolUse` settings.,"bug, has repro, platform:macos, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13897,"Agent calls tools twice after permission approval, causing redundant executions","bug, has repro, platform:linux, area:tools, area:mcp",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13894,[BUG]  Claude Code / Bun AVX-512 Crash,"bug, has repro, platform:linux, area:packaging",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13888,[BUG] `https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/stable` still points to 2.0.65,"bug, has repro, area:packaging",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13883,[Bug] @ symbol doesn't immediately prompt MCP server selection,"bug, has repro, platform:macos, area:tui, area:mcp",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13882,[FEATURE] Full interactive shell experience replacing/improving the Bash mode,"enhancement, area:tui, area:tools",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13880,[Feature Request] Add support for Google Antigravity IDE visual diffs,invalid,Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13879,[Bug] Terminal setup incompatible detection logic conflicts between Visual Studio and Windows Terminal,"bug, duplicate, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13876,[BUG] URL generated from /feeback in Claude Code breaks Github Issue creation,"bug, has repro, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13874,[Bug] Custom slash commands not appearing after recent update,"bug, has repro, platform:windows, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13870,[FEATURE],"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13863,"[FEATURE] Keep diff visible when selecting ""tell Claude what to do differently""","enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13858,[Feature Request] Built-in subagents should support configurable or inherited model selection,"enhancement, area:tools, area:model",Feature Request,Positive,L1.4,Tools & Execution,Other,Other,Low,No L2 match found
+13856,[Bug] Persistent Connection Error to Anthropic API in VSCode,"bug, has repro, platform:macos, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13854,[BUG] Unable to select model using option+p in Mac,"bug, has repro, api:bedrock, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13851,[BUG] v2.0.68 does not display MCP interaction in subagent even with --debug and/or --verbose,"bug, has repro, platform:windows, area:mcp",Bug,Neutral,L1.5,MCP Integration,Other,Other,Low,Weak L2 match (score=1)
+13850,[BUG],"bug, platform:macos, area:tools, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13844,[Feature Request] Restore quick-access thinking mode toggle and visual indicator,"bug, enhancement, has repro, platform:macos, area:tui, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13841,Standardize Phase 1 Catalog Service File Structures,invalid,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13840,VS Code Extension: Lacks XDG Base Directory Specification Compliance,"bug, duplicate, platform:linux, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13839,[BUG] VS Code extension top bar button missing after v2.0.65 update,"bug, has repro, platform:macos, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13836,[FEATURE] AI Seed number as a parameter for consistency.,"enhancement, area:model, area:api",Feature Request,Positive,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13820,[BUG] Status line context window misreports when sub-agent usage is counted,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13818,[Bug] Claude Code web: Repos show as configured but remain inaccessible in UI,"bug, has repro, platform:macos, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13801,placeholder,invalid,Bug,Neutral,Other,Other,Other,Other,Low,No clear L1/L2 match
+13798,[Bug] Private marketplace clone fails with HTTPS authentication error,"bug, has repro, platform:macos, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13791,[BUG] When in a workspace (vs code workspace file) the Yes and don't ask again is not working,"bug, has repro, platform:macos, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,No L2 match found
+13790,[DOCS] Windows 11 users will benefit from correct path to `bash.exe``,"documentation, platform:windows",Documentation,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13787,"[BUG] Claude Code VS Code extension throws an error when re-reading an image that was previously read successfully, and the chat cannot continue afterward","bug, has repro, platform:windows, area:tools, area:api, area:ide",Bug,Negative,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13783,[BUG] Statusline context_window JSON contains cumulative tokens instead of current context usage,"bug, has repro, platform:macos, area:tui, area:api",Bug,Negative,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13782,[FEATURE] Reload local plugins on startup,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13768,[BUG] Thinking mode setting in settings.json not persisted across sessions,,Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13767,[FEATURE] Provide an option to disable your ugly ask a user dialog,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13765,Context window tracking in statusline doesn't reset on /clear,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13755,[Question] Why did the Clawd mascot color change from orange to blue?,"question, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13742,[Volunteer Request] Beta tester for audio interface for Claude Code,"enhancement, question, platform:macos",Feature Request,Positive,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13738,[BUG] Bug/Feature: Clipboard image paste not working in WSL,"bug, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13726,Windows: SSH keys fail with 'error in libcrypto' due to line endings,"bug, enhancement, has repro, platform:windows, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13724,[Bug] Anthropic API Error: OAuth token missing user:profile scope for usage data,"bug, duplicate, has repro, platform:macos, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13723,[BUG] Claude Code JetBrains plugin jumps to the beginning of terminal on terminal resize,bug,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13720,[FEATURE] code REVIEWS that do not suck,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13718,[BUG] Webfetch not working in cloud version,"bug, has repro, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13715,[Bug] Model performance degradation in current version,"bug, platform:macos, area:model, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13705,"[Bug] Update process leaves stale lock file, blocking subsequent updates","bug, has repro, platform:macos, area:packaging",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13703,[FEATURE] Ship Claude Code as a standalone binary (ideally Rust),"enhancement, platform:windows, area:packaging",Feature Request,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13701,[Bug] Anthropic API Error: Invalid thinking parameter in requests,"bug, has repro, platform:windows, area:model, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13697,Use/No prompt related commands after use /rewind  and Restore conversation,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13695,[FEATURE] Feature Request - Add annotation to plans claude proposes inside of visual studio code / cursor,"enhancement, area:tui, area:ide",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13693,placeholder,invalid,Bug,Neutral,Other,Other,Other,Other,Low,No clear L1/L2 match
+13688,session-memory/summary.md files not being created in v2.0.65,"bug, has repro, platform:linux, memory",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13686,[Bug] UTF-8 Character Corruption in Project Knowledge File Workflow,"bug, has repro, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13680,[Bug] /bug command output not copyable and GitHub issue length validation fails without fallback,"bug, has repro, platform:macos, area:core",Bug,Negative,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13669,[Bug] /context command fails with: Anthropic API Error: Invalid message format with thinking blocks and tool use,"bug, has repro, platform:linux, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13666,"[Bug] VS Code Extension Hijacks cmd+shift+' Shortcut, Forces Claude Window Focus","bug, platform:macos, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13662,[BUG] Claude code extension does not update,"bug, platform:windows, area:packaging, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13660,[BUG] Input Method for Chinese Character's wrong location on windows 11 24H2,bug,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13659,"[BUG] I have updated my Claude, but I do have the same tokens limitation...","bug, has repro, platform:macos, area:cost, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+13651,5k bugs? HELLO ANYBODY WORKING ON ANYTHING????? HELLLO???? PAYING CUSTOMERS OUT HERE!!!!,"bug, invalid, platform:windows",Bug,Negative,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13648,[Bug] Anthropic API Error: Cannot modify thinking blocks in assistant message,"bug, duplicate, has repro, platform:macos, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13647,[Bug] Model selection defaults to Opus 4.1 when Opus 4.5 is selected,"bug, has repro, platform:windows, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+13632,Limit reached · resets 11:30am (Asia/Calcutta) · /upgrade to Max or turn on /extra-usage,"bug, has repro, platform:macos, area:cost, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13631,[Feature Request] Vi mode: Add jk key mapping with timeout to ESC,"enhancement, platform:windows, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13630,[Bug] Session token limit reached prematurely after upgrade to v2.0.64,"bug, has repro, platform:macos, area:cost, area:api, area:security",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13602,[BUG] Cannot press Enter in new chats - React error #418 (old chats work fine),"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13601,[BUG] Significent differences reading text from photo in Claude UI vs Claude CLI,"bug, has repro, platform:macos, area:model, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13591,[FEATURE] Sticky/Fixed Input Mode - Keep input visible while scrolling output,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13586,[BUG] Custom slash command naming conflict with built-in Skill tool silently prevents ALL commands from loading,"bug, has repro, platform:macos, area:tools, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13576,[BUG] Latest Claude Code version not available in claude-agent-sdk,"bug, platform:macos, area:api, area:packaging",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13568,[Bug] Hookify plugin: incorrect sys.path configuration breaks module imports,"bug, duplicate, has repro, platform:macos",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13565,[BUG] MAX_THINKING_TOKENS not works on Claude Code for VS Code,"bug, platform:windows, area:model, area:ide",Bug,Negative,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13558,[BUG] Azure Foundry - Requested API is currently not supported,"bug, platform:macos, area:auth, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13551,[Bug] Max plan usage consumed at unusually high rate without workflow changes,"bug, has repro, platform:macos, area:cost, area:api",Bug,Negative,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13545,[BUG] Entire terminal/console content cloned/duplicated on terminal resize or focus switch,"bug, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13544,[BUG] Regression de claude code?,"bug, enhancement, platform:windows, area:model, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,No L2 match found
+13536,[Bug] Excessive token usage on new session initialization,"bug, has repro, platform:macos, area:cost",Bug,Negative,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13529,"[BUG] When background Bash process completes, prompt editor is cleared, loosing partially entered prompt!","bug, has repro, platform:linux, area:tui, area:tools",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13523,[BUG] Some output from `/stats` in unreadable due to output colors not respecting used theme,"bug, has repro, platform:linux, area:tui, area:a11y",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13519,"[BUG] Claude generates Filament v3 code patterns instead of v4, causing fatal errors","bug, has repro, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+13518,"[BUG] ""PDF too large"" error persists and blocks all PDF reading","bug, has repro, platform:macos, area:tui, memory",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13517,[Bug] Custom statusLine command from settings.json not being executed,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13513,test,invalid,Bug,Neutral,Other,Other,Other,Other,Low,No clear L1/L2 match
+13496,[FEATURE] Private/Silent Slack Integration feedback,"enhancement, area:mcp, area:security",Feature Request,Neutral,L1.5,MCP Integration,Other,Other,Low,No L2 match found
+13493,Large cumulative agent descriptions impacting performance (~16.3k tokens),"enhancement, has repro, area:tools, memory, perf:memory",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,No L2 match found
+13485,[Bug] Non-default models incorrectly enable extended thinking regardless of alwaysThinkingEnabled setting,"bug, platform:linux, area:model, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13474,[FEATURE] open browser instead jump to local path when click links in /sandbox description,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13469,"[Bug] Resume command pre-fills filter field with ""/esume"" instead of clearing it","bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13451,Feature request: Add 'disableProjectCommands' setting,"enhancement, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13445,[BUG] Ctrl+d to delete a character sometimes causes the app to exit,"bug, has repro, platform:macos, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13441,[BUG] Claude Code splices ANSI color codes when wrapping stdout from a program it ran,"bug, has repro, platform:macos, area:tui, area:tools",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13439,PreToolUse hook causes AskUserQuestion tool to return empty responses,"bug, has repro, platform:macos, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13430,[Feature Request] Add WASD/Arrow Key Navigation for Menus,"enhancement, platform:macos, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13425,[Feature Request] Add support for fish shell integration,"enhancement, platform:macos, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13423,Prism Server Requires Undocumented PRISM_CLIENT_SPAWNABLE Environment Variable,invalid,Bug,Negative,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13421,"[Bug] When Claude examines multiple images or a large image, it returns an error message and the conversation cannot continue in any way","bug, has repro, platform:macos, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13406,[Bug] Image paste displays briefly then disappears; long text paste overflow into console,"bug, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13386,S-Chain WF1: Multi-Source PR Detection Required,invalid,Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13383,[BUG],"bug, has repro, platform:macos, area:tui, area:mcp",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13382,[Feature Request] Refactor utility functions into separate modules and add Zod schema validation,"enhancement, platform:macos, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13377,[BUG] Install the PyCharm plugin from the JetBrains Marketplace: https://docs.claude.com/s/claude-code-jetbrains,"bug, documentation, has repro, platform:windows, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13374,[Feature Request] Restrict write access to .git directories even when parent directory is writable,"enhancement, platform:linux, area:security",Feature Request,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13372,[BUG] Maven/Gradle builds fail in Claude Code Web cloud environment - DNS resolution failure for repo.maven.apache.org,"bug, has repro, external, area:core, area:packaging",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13370,[FEATURE] SSH Bell Emission,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13361,"[BUG] Running File Read on Windows is really slow, almost unusable. Please optimize the cygpath logic!","bug, has repro, platform:windows, perf:memory",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13357,Numbered feedback prompts conflict with numbered user responses,"bug, has repro, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13355,To be able to add funds/credits in Claude Code like you can in normal Claude (a small button shows up saying Add Funds),"enhancement, area:cost, area:tui",Bug,Negative,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13354,[FEATURE] Continue when the session limit reached,"enhancement, area:tui",Feature Request,Negative,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13351,[Bug] Incorrect year interpretation in file timestamps (2024 instead of 2025),"bug, has repro, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+13348,Add Stripe payment method for tier upgrades and paid onboarding,enhancement,Feature Request,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+13345,[BUG] Terminal receiving ANSI escape codes as typed input during tool execution,"bug, has repro, platform:macos, area:tui, area:tools",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13339,"[BUG] VS Code Extension Ignores Hook `permissionDecision: ""ask""`","bug, has repro, area:security, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13329,Feature Request: Non-Blocking Session Creation for ACP/SDK Clients,"enhancement, has repro, area:api, area:mcp",Feature Request,Negative,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13321,[BUG] User prompt being highlighted before it's accepted by model,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13308,Terminal: Apple Terminal (Terminal.app) scroll failure,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13304,[Bug] Model override to different model despite Sonnet configuration causes excessive token usage,"bug, platform:windows, area:cost, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+13303,[Bug] Update() tool causes token counting freeze with Max(20x) iteration limit,"bug, has repro, platform:macos, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,No L2 match found
+13301,[BUG] Diff comparison window randomly fails to appear,"bug, has repro, platform:windows, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13283,"[BUG] TUI cut, unable to view full message","bug, has repro, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13280,[Bug] Multiple Claude Code instances fail after update to 2.0.60,,Bug,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+13278,[Bug] Claude generates unsafe destructive commands with rm -rf on root directory,,Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13274,docs: align node requirements,,Documentation,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13272,[Feature Request] User appreciation feedback,"bug, has repro, platform:macos, external",Feature Request,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13267,feat: add marketplace tags and expand security patterns,,Documentation,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+13262,[Feedback] System is consistently failing on previously successful tasks today,"bug, platform:linux",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13252,Add single-breaker CRUD endpoints for better UX,"enhancement, has repro, area:api",Feature Request,Negative,L1.2,API & Integration,Other,Other,Low,No L2 match found
+13245,"[MODEL]  Claude Code misreads numeric values (1.5 vs 15, 1.1 vs 11)","bug, has repro, area:model, memory",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+13243,"[FEATURE] Add `installMethod` support for system package manager installations (pacman/AUR, apt, etc.)","enhancement, has repro, platform:linux, area:packaging",Feature Request,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13238,[FEATURE] Organize plans by projects,enhancement,Feature Request,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13237,Test Coverage: Injuries Module Tests,invalid,Bug,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+13236,Test Coverage: Analytics Module Tests,invalid,Bug,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+13235,Test Coverage: V200+ Predictor Tests,invalid,Bug,Neutral,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+13228,[BUG] Extremely slow response times for Java code generation in Claude Code(15+ minutes),"bug, has repro, platform:macos, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13226,[Bug] Document processing hangs when rapidly skipping prompts during multi-document upload,"bug, has repro, platform:windows",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13222,[Bug] Terminal plugin truncates URLs to ~12 characters in plan phase output,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13219,[Bug] Multiple Claude Code instances fail with Cursor IDE integration,"bug, platform:macos, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13218,Dev mode: Add confirmation dialog for import database button,"enhancement, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13216,Feature Request: Subscription-Gated Local LLM for Claude Code,"enhancement, area:model, area:api, area:security",Feature Request,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13213,"[BUG] autoUpdaterStatus: ""disabled"" setting is ignored - CLI auto-updates anyway","bug, has repro, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13212,[BUG] Git proxy service not running on port 25968 - Unable to push to GitHub from Claude Code remote environment,"bug, has repro, platform:windows, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13209,[Bug] Flip UI command enters infinite loop on macOS without fixing issue,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13200,[Bug] Follow-up prompts not sending to server when queued,"bug, has repro, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13190,[Feature Request] Remove post-compaction confirmation prompt,"enhancement, platform:linux, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13186,[BUG] alse positive content filter on standard React form component,"bug, has repro, platform:windows, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13173,[Bug] Excessive token consumption on repeated task failures,"bug, has repro, platform:linux, area:mcp",Bug,Neutral,L1.5,MCP Integration,Other,Other,Low,No L2 match found
+13163,Enforce strict ZIP code validation in file ingestion to reject malformed addresses,invalid,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13160,Duplicate competition doesn't copy all fields,invalid,Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13157,[BUG] Invalid Unicode in Edit tool results causes 400 'invalid JSON' API errors,"bug, has repro, api:vertex, platform:macos, area:tools, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+13156,[FEATURE] ClaudCode TUI Components,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13147,[Bug] Invalid string length error during CLI execution,"bug, duplicate, has repro, platform:linux, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+13143,"[BUG] wrong URL in ""Ready to code here?"" project onboarding screen","bug, documentation, has repro, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13132,[Bug] Exit command leaves duplicate prompt line on terminal,"bug, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13110,VaporWeb certificates should be per-device per-VaporNET,invalid,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13101,[Bug] Claude Code Hangs on Command Output in macOS VS Code Extension,"bug, has repro, platform:macos, area:tools, area:ide",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13097,[Docs] Clarify that extraKnownMarketplaces requires interactive trust dialog (not available in CI/headless mode),"documentation, enhancement",Documentation,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13092,[BUG]   API Error: 400,bug,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13090,[FEATURE] Installer should be able to install in a global folder like /usr/local/,"enhancement, has repro, platform:linux, area:packaging",Feature Request,Neutral,L1.8,Platform-Specific,Other,Other,Low,No L2 match found
+13088,[BUG] /cost Command Resets on Session Resume [VS Code Extension],"bug, has repro, platform:macos, area:cost, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13085,"[BUG] With VS Code extension enabled, claude update in external terminal fails with 'Another process is currently updating Claude' error","bug, has repro, platform:macos, area:packaging, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13078,[BUG] [JetBrains Plugin] Ctrl+Alt+K inserts code reference to all terminal tabs and steals focus,"bug, has repro, platform:linux, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13075,"[Bug] File selection via ""@"" mention doesn't highlight selected state (after the new ""clickable"" feature was implemented)","bug, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13071,[Bug] Claude Code passes invalid `--no-stat` flag to `git show` command,"bug, has repro, platform:linux, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+13067,Allow read-only bash commands in plan mode,"enhancement, area:tools, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+13066,Feature request: Add customizable icon/mascot color theme,"enhancement, area:tui",Feature Request,Positive,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13056,[FEATURE] Support local persistence of .claude/CLAUDE.md when working on remote SSH servers,"enhancement, has repro, memory",Feature Request,Negative,L1.9,Performance & Resources,Other,Other,Low,Weak L2 match (score=1)
+13049,[Bug] Image size error persists after clearing prompt and image data,"bug, has repro, platform:windows, area:tui, memory",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13047,[Feature Request] Add prompt to create documentation in plan mode,"enhancement, platform:macos, area:tui, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+13041,[BUG] Phpstorm plugin 0.1.13 - ClaudeFilePathFilter crashes on Windows due to invalid path characters and breaks terminal selection highlight,"bug, has repro, platform:windows, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+13037,[Bug] Token consumption without output generation during task execution,"bug, has repro, platform:linux, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+13036,Mobile Landscape UI: Header menus not visible,invalid,Bug,Negative,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13025,[FEATURE] Add search/filter for /permissions allow list,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13008,[FEATURE] OSC 8 Hyperlinks for Clickable File Paths,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+13006,[Bug] Spanish language: Missing diacritics and special characters in output,"bug, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+13000,[Bug] Terminal focus handling in mlterm,"bug, duplicate, has repro, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12986,[FEATURE] Allow the installed browser tools like Gramarly to access the chat window.,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12983,.,invalid,Bug,Neutral,Other,Other,Other,Other,Low,No clear L1/L2 match
+12980,[Feature Request] Add option to skip trust prompt when .claude/settings.local.json allows it,"enhancement, platform:linux, area:security",Feature Request,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+12975,[Bug] Terminal hangs when executing bash command with /dev/urandom on macOS 15.6,"bug, has repro, platform:macos, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12970,[Feature Request] Add pagination/scrolling for long output responses,"duplicate, enhancement, platform:linux, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+12969,[FEATURE] Make Claude model ID fully configurable (including AWS China regions and custom models),"enhancement, has repro, api:bedrock, area:model, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+12963,RFE: Shell tool display name should reflect actual shell (zsh vs bash),"enhancement, area:tui, area:tools",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12961,API Error: Connection error.,"bug, duplicate, has repro, platform:macos, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12957,[Feature Request] Plan mode with Opus and Sonnet for doing same with Haiku mode,"enhancement, area:model, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12953,[BUG] Mousewheel scrolls through input history instead of chat history,"bug, has repro, platform:windows, area:tui, area:tools",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12952,[Bug] Anthropic API token counting performance degrades linearly with conversation size,"bug, has repro, platform:linux, area:api, perf:memory",Bug,Negative,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+12951,[Feature Request] Auto-detect macOS network location settings for proxy configuration,"enhancement, platform:macos, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12947,[Bug] Anthropic API Error: Image media type mismatch on image files,"bug, has repro, platform:macos, area:tools, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+12944,[Bug] AskUserQuestion Tool Not Available in Claude VSCode Extension,"bug, has repro, platform:macos, area:tools, area:ide",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12943,[Bug] Color output not restored after upgrade and update notification persists on latest version,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12940,[BUG] High memory consumption when running Claude Code in multiple IntelliJ projects,"bug, has repro, platform:macos, area:ide, memory, perf:memory",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+12937,[BUG] Stuck in edit dialog when trying to edit an agent in Claude Code CLI with AgentSDK installed,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12933,"[Bug] Glob pattern search returns only files, not directories",,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12927,[FEATURE] /copy command to copy last response to clipboard,"duplicate, enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12923,[Feature Request] Restore to-do list UI from web version to CLI,"enhancement, platform:macos, area:tui, area:tools",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12921,"[Feature Request] Improve Claude's output tone to use positive, prescriptive language instead of negative directives","enhancement, platform:macos, area:core",Feature Request,Negative,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12913,[Bug] Chat pasting causes Claude to fail responding,"bug, has repro, platform:macos, area:mcp",Bug,Neutral,L1.5,MCP Integration,Other,Other,Low,Weak L2 match (score=1)
+12910,[BUG] OSC terminal color query responses leak into input buffer,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12908,[BUG] Conversation History disappeared after update.,"bug, platform:macos, area:ide, memory",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+12904,API Error: Connection error.,"bug, has repro, platform:macos, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12903,[Bug] Git repository not recognized despite valid .git directory,"bug, platform:macos, area:core",Bug,Negative,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12900,[Bug] CLion IDE integration issue,"bug, has repro, platform:windows, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+12889,[BUG] Opus 4.5 overuses markdown tables,"bug, has repro, platform:macos, area:tui, area:model",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+12887,[BUG] Console window hangs when claude is running more than one subagent,"bug, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+12867,[Bug] Anthropic API Error: Image dimensions exceed max allowed size in multi-image requests,"bug, has repro, platform:macos, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+12866,[BUG],invalid,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12862,[FEATURE] Improve error message when origin/HEAD is not set for /security-review command,"enhancement, has repro, area:security",Feature Request,Neutral,L1.10,Security,Other,Other,Low,No L2 match found
+12859,[FEATURE Request] editing previous message,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12858,Feature Request: MCP to access Claude.ai chat history and Projects,"enhancement, area:api, area:mcp",Feature Request,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+12856,Unable to connect to API due to poor internet connection,"bug, duplicate, has repro, platform:macos, area:core, area:api",Bug,Negative,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12855,Sandboxie Plus compatibility issues with UNC paths and terminal-IDE communication,"bug, platform:windows, external",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+12843,Assets Canister: include/require don't work with PHP files from assets canister,invalid,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12831,.,invalid,Bug,Neutral,Other,Other,Other,Other,Low,No clear L1/L2 match
+12830,[BUG] Using something other than Mac Shell (terminal) causes notifications to spawn a terminal window,"bug, has repro, platform:macos, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12828,API Error: Connection error.,"bug, has repro, platform:macos, area:core, area:api",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12826,[BUG] plan markdown losing the last character on some lines,bug,Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12824,[Bug] Plan markdown file remains visible after conversation completion,"bug, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+12817,[DOCS] Document in the README of each plugin the syntax for allowing skills to be run automatically without Claude asking for permission,"documentation, enhancement, area:tools",Documentation,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12815,5-hour limit reached · resets 6am (Asia/Seoul) · /upgrade to Max 20x or turn on /extra-usage,"bug, has repro, platform:windows, area:auth",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+12811,Test,invalid,Bug,Neutral,Other,Other,Other,Other,Low,No clear L1/L2 match
+12808,"[BUG] In vscode workspace, Claude Code always starts in first project","bug, has repro, platform:linux, area:ide",Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+12775,Anti-Pattern Detection,"enhancement, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12772,Research-First Workflow Enforcement,"enhancement, area:core",Documentation,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+12769,Enforce Hypothesis-Driven Debugging Mode,"enhancement, area:model, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+12758,Input blocked when .env file exists in working directory (fish shell),"bug, has repro, platform:linux, area:tui",Bug,Negative,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12748,[FEATURE] Add cwd parameter to Task tool for setting subagent working directory (to support Git worktrees),"enhancement, area:tools",Feature Request,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12745,[Feature Request] Improve Claude plan discovery with project-relative paths and descriptive naming,"enhancement, platform:macos, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12741,[Bug] Smart quotes cause parsing errors in code input,"bug, has repro, platform:macos, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12738,[Bug] Opus 4.5 missing from Claude Code model picker menu,"bug, has repro, platform:macos, area:tui, area:model",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+12735,[FEATURE] Image resize on paste,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12728,[Feature Request] MCP Tool Output Verbosity Control,"enhancement, area:tui, area:mcp",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12709,Centralize Redis Connection Management,,Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+12705,[BUG] Unable to generate a AGPLv3 license due to content filtering policy,"bug, has repro, platform:macos, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+12685,[BUG] IntelliJ IDEA: OpenClaudeInTerminalAction blocks EDT thread (453ms),"bug, has repro, platform:windows, area:ide, perf:memory",Bug,Negative,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+12677,"[BUG] Don't render content that is not Markdown as Markdown (i.e. don't interpret `_`, `*`, etc. as Markdown tokens)","bug, has repro, platform:linux, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12674,Clean up plugin-validator.md by removing extra AI generated text,,Documentation,Positive,Other,Other,Other,Other,Low,Weak L1 match (score=1)
+12673,[Bug] Anthropic API: Claude 3 Opus model performance degradation,"bug, platform:macos, area:model, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+12666,[FEATURE] VSCode quick-access permission control switch,"enhancement, area:tui, area:security, area:ide",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12658,[BUG] HEREDOC git commit command fragment incorrectly captured in settings.local.json permissions,"bug, has repro, platform:linux, area:core",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12656,[Bug] Phantom shell process counts against 5-hour daily limit after KillShell confirmation,"bug, duplicate, has repro, platform:macos, area:cost, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12641,[FEATURE] Lines in code diffs in VS Code extension,"enhancement, area:ide",Feature Request,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+12640,[Bug] Grep tool returns incomplete results,"bug, has repro, platform:linux, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12639,Add visual consistency guidance for characters/objects across scenes,"enhancement, has repro, area:model",Feature Request,Neutral,L1.7,Model & Reasoning,Other,Other,Low,No L2 match found
+12632,[FEATURE] Collapsible plan preview in plan mode,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12626,[BUG] iterm2's claude code window auto input with \u001d,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12622,[FEATURE] /theme auto open submenu theme in config menu,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12619,[FEATURE] Allow setting plan directory and naming scheme per-repo,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12616,"[BUG] API Error: 400 {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Could not process image""},""request_id"":""req_011CVaC1ZBLb4PLudLYZ6RZR""}","bug, duplicate, platform:macos, area:tools, area:api",Bug,Negative,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+12615,Gaming the system and cheating,"bug, external, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12608,[FEATURE] Allow Claude iPad app to be installed on Vision Pro,"enhancement, area:packaging",Feature Request,Positive,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12599,[BUG] An Intolerably Slow System That Fails to Meet Even Minimal Usability Standards.,"bug, has repro, platform:windows, perf:memory",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+12596,[Bug] Text selection impossible during spinner animation in terminal,"bug, has repro, platform:linux, area:tui",Bug,Negative,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+12593,[BUG]  Add automatic paging for long command outputs,"bug, enhancement, has repro, platform:windows, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12588,[BUG] VSCode Extension: Task tool output opens as plaintext instead of rendered markdown,"bug, has repro, platform:macos, area:tools, area:ide",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12584,[Feature Request] Add custom session naming with terminal integration support,"duplicate, enhancement, platform:macos, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,No L2 match found
+12581,[Bug] Claude Opus generates outdated YAML after dataset update,"bug, platform:macos, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,Weak L2 match (score=1)
+12580,[BUG] www.anthropic.com is blocked from being retrieved when using the web search tool within Claude Code on home network with full access.,"bug, has repro, platform:windows, area:tools",Bug,Neutral,L1.4,Tools & Execution,Other,Other,Low,Weak L2 match (score=1)
+12578,[BUG] cygpath calls on Windows seems to slown down agent a lot,"bug, platform:windows, perf:memory",Bug,Neutral,L1.8,Platform-Specific,Other,Other,Low,Weak L2 match (score=1)
+12576,Feature Request: Shift+Enter for newlines in message input,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12575,[Bug] Claude 3.5 Opus context exhaustion without response in IDE integration,,Bug,Neutral,L1.6,IDE Integration,Other,Other,Low,Weak L2 match (score=1)
+12574,[Feature Request] Add option to log thinking traces to file in --print mode,"enhancement, platform:linux, area:core",Feature Request,Neutral,L1.1,Core Functionality,Other,Other,Low,No L2 match found
+12571,[BUG] Statusline does not refresh after shell escape (!) commands,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12565,[FEATURE] Show conversation context length in status line or hook input,"enhancement, area:tui, area:api",Feature Request,Neutral,L1.2,API & Integration,Other,Other,Low,No L2 match found
+12560,[FEATURE] ability to clear stale unsent / unacknowledged prompts,"enhancement, area:tui",Feature Request,Positive,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12559,[Bug] Memory file path display truncated by token count in /context output,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12554,[FEATURE] allow override of verbose claude with flag,"enhancement, area:tui",Feature Request,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)
+12553,[Bug] Claude responds in Russian despite English-only prompts,"bug, platform:macos, area:model",Bug,Neutral,L1.7,Model & Reasoning,Other,Other,Low,No L2 match found
+12549,[BUG] Constant updates to CLAUDE.md,"bug, has repro, platform:linux, area:core, memory",Bug,Neutral,L1.1,Core Functionality,Other,Other,Low,Weak L2 match (score=1)
+12535,[BUG] Claude Code in VSCode expects model deployments from Azure Foundry in lowercase,"bug, has repro, platform:windows, area:api",Bug,Neutral,L1.2,API & Integration,Other,Other,Low,Weak L2 match (score=1)
+12528,[BUG] Korean IME input causes character decomposition after language switching,"bug, has repro, platform:macos, area:tui",Bug,Neutral,L1.3,Terminal UI ,Other,Other,Low,Weak L2 match (score=1)

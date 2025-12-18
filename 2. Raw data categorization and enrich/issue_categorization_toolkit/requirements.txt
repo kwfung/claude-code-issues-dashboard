@@ -1,0 +1,4 @@
+# Python Requirements for Issue Categorization Toolkit
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0.0
